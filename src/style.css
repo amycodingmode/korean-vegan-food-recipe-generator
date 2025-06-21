@@ -1,3 +1,15 @@
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 body {
   background-color: #f2fee9;
   font-family: Arial, Helvetica, sans-serif;
@@ -18,9 +30,10 @@ header {
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 42px;
+  font-size: 58px;
   line-height: 1.2;
-  color: rgb(69, 9, 165);
+  color: rgb(0, 148, 77);
+  font-family: DM Serif Text;
 }
 
 form {
