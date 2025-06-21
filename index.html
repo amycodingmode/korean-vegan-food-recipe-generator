@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Korean Vegan Recipe Generator</title>
   </head>
@@ -15,7 +18,7 @@
         <h1>AI Korean Vegan <br />Recipe Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="Enter the main vegetable name of your dish"
@@ -26,13 +29,10 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="content-recipe">
-          The recipe 01
-          <br />
-          The recipe 02
-        </div>
+
+        <div class="content-recipe" id="recipe"></div>
       </main>
-      <script src="src/script.js"></script>
+
       <footer>
         This AI project was coded by
         <a href="https://github.com/amycodingmode" target="_blank">Amy Kim</a>
@@ -50,5 +50,6 @@
         >
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
