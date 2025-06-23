@@ -46,7 +46,7 @@ h2 {
 
 h3 {
   text-align: center;
-  line-height: 2.3;
+  line-height: 2.1;
   color: rgb(0, 90, 47);
   font-size: 22px;
   line-height: 10px;
@@ -68,7 +68,7 @@ form {
 
 input::placeholder {
   color: rgb(0, 90, 47);
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 input[type="text"]:focus {
@@ -87,9 +87,10 @@ input[type="text"]:focus {
   border: 1.3px solid rgb(0, 148, 77);
   width: 80%;
   font-size: 16px;
+  font-weight: 600;
   border-radius: 50px;
   line-height: 20px;
-  color: rgb(0, 148, 77);
+  color: rgb(0, 90, 47);
 }
 
 .submit-button {
@@ -103,7 +104,7 @@ input[type="text"]:focus {
   text-align: center;
 }
 .submit-button:hover {
-  border: 2px solid rgb(0, 148, 77);
+  border: 1.5px solid rgb(0, 148, 77);
   background: white;
   color: rgb(0, 148, 77);
   cursor: pointer;
@@ -120,6 +121,7 @@ input[type="text"]:focus {
 }
 
 .content-recipe {
+  color: rgb(0, 90, 47);s
   font-size: 16px;
   background-color: white;
   padding: 20px;
