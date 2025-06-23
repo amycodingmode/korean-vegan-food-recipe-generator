@@ -121,13 +121,15 @@ input[type="text"]:focus {
 }
 
 .content-recipe {
-  color: rgb(0, 90, 47);s
+  color: rgb(0, 90, 47);
   font-size: 16px;
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid rgb(0, 148, 77);
-  border-right: 3px solid rgb(0, 148, 77);
+  border-left: 2px solid rgb(0, 148, 77);
+  border-right: 2px solid rgb(0, 148, 77);
+  border-top: 2px solid rgb(0, 148, 77);
+  border-bottom: 2px solid rgb(0, 148, 77);
 
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
   border-radius: 25px;
